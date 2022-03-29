@@ -4,4 +4,4 @@ Also you can see my resume inside it.
 
 #React.JS
 #Bootstrap
-#Scss
+#SCSS
