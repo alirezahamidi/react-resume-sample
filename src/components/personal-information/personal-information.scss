@@ -1,0 +1,22 @@
+.personalInformation {
+    .piBody {
+        background: none;
+
+        .piImage {
+            display: flex;
+            justify-content: center;
+
+            img{
+                width: 280px;
+                height: 280px;
+            }
+        }
+
+        .piBox{
+            .data{
+                padding: 10px 10px;
+                font-weight: 700;
+            }
+        }
+    }
+}

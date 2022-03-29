@@ -1,0 +1,28 @@
+.nav {
+    padding-top: 0px;
+    height: 65px;
+    width: 100%;
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: start;
+        background: #00144c;
+        padding: 0px;
+        .navItem {
+            cursor: pointer;
+            padding: 20px;
+            height: 100%;
+            border-left: 1px solid #00144c;
+            border-right: 1px solid #00144c;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navItem:hover {
+            background: #ffffff0e;
+        }
+    }
+}

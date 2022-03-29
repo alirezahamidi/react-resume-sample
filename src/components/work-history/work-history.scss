@@ -1,0 +1,46 @@
+.work-hsitory {
+    .work-history-component-body {
+        .work-history-item {
+            display: flex;
+            flex-direction: column;
+            padding: 5px 30px;
+
+            .items {
+                display: flex;
+                flex-direction: column;
+                .date {
+                    display: flex;
+                    flex-direction: row;
+
+                    span {
+                        margin: 0px 25px 0px 0px;
+                    }
+                }
+                .responsibility {
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        padding: 0px 10px;
+                    }
+                }
+                .skills {
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        padding: 0px 10px;
+                    }
+
+                    .skill {
+                        background-color: rgba(0, 217, 255, 0.055);
+                        border-radius: 5px;
+                        margin: 2px;
+                        padding: 0px 3px;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}

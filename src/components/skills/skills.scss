@@ -1,0 +1,20 @@
+.skills-component-body {
+    padding: 10px;
+    
+    .skills-item {
+        .items {
+            display: flex;
+            flex-direction: column;
+            padding: 5px 30px;
+
+            .date {
+                display: flex;
+                flex-direction: row;
+
+                span {
+                    margin: 0px 25px 0px 0px;
+                }
+            }
+        }
+    }
+}

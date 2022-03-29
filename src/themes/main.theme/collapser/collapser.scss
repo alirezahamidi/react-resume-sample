@@ -1,0 +1,80 @@
+.collapser {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(90deg, #00012e, #00012e, #016b98, #0185b2, #00d0ff);
+
+    .openArrow {
+        height: 10%;
+        display: block;
+        .slider {
+            background: #fff;
+            width: 15%;
+            display: block;
+            height: 85%;
+            margin: 14px;
+            border-radius: 8px;
+            padding: 5px;
+            cursor: move;
+            .slider2 {
+                background: linear-gradient(45deg, #838383, #414141);
+                display: block;
+                height: 100%;
+                border-radius: 7px;
+                color: #fff;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .upperSide {
+        height: 60%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        background: #00012e;
+        border-bottom: 5px solid #fff;
+        // border-image: linear-gradient(90deg, #00012e, #00012e, #016b98, #0185b2, #00d0ff);
+        .profile {
+            .profile-picture {
+                padding-top: 6%;
+                img {
+                    display: block;
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+            .inforamtion-container {
+                padding-top: 7rem;
+                color: #fff;
+                .info {
+                    padding: 4rem 0rem;
+                    display: block;
+                }
+            }
+        }
+    }
+    .lowerSide {
+        height: 30%;
+        width: 100%;
+        top: 50%;
+        left: 0px;
+        background: #00012e;
+        border-top: 5px solid #fff;
+
+        .welcome-container {
+            text-align: center;
+            padding-top: 5%;
+            color: #fff;
+        }
+    }
+}
+
+.exit {
+    transform: translate(0px, -110%);
+    transition: 1.6s cubic-bezier(0.65, -0.13, 0.24, 0.57);
+}
